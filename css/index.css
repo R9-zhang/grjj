@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{list-style: none}
+a{text-decoration: none}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.music{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: fixed;
+    right: 0.25rem;
+    top: 0.25rem;
+    z-index: 999;
+    background: url("../images/music_off.png") no-repeat;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    background: #b5e2df;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.jpg");
+    background-size: 100% 100%;
+}
+.page1 img:first-child{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.6rem;
+}
+.page1 img:nth-child(2){
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.6rem;
+}
+.page2 .box1{
+    width: 2.3rem;
+    height: 2.2rem;
+    margin: 0.5rem auto 0;
+}
+.page2 .box1 img{
+    width: 100%;
+    height: 100%;
+}
+.page2 .box2{
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.65rem;
+    left: 50%;
+    margin-left: -0.95rem;
+    background: url("../images/touxiang.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.page2 h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.1rem;
+}
+.page2 .box3{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 8%;
+    top: 52%;
+}
+.page2 .box4{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    left: 70%;
+    top: 65%;
+}
+.page2 .box5{
+    width: 0.95rem;
+    height: 0.77rem;
+    position: absolute;
+    left: 15%;
+    top: 80%;
+}
+.page2 .box6{
+    width: 1.1rem;
+    height: 1.17rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.4rem;
+    top: 60%;
+}
+.page2 p{
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 0.14rem;
+
+}
+.page2 p:nth-child(8){
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+}
+.page2 p:nth-child(10){
+    line-height: 0.5rem;
+    margin-left: 2.2rem;
+}
+.page2 p:nth-child(11){
+    line-height: 0.3rem;
+    margin-left: 0.3rem;
+}
+.page2 p:nth-child(12){
+    line-height: 0.5rem;
+    margin-left: 2.0rem;
+}
+.page2 p:nth-child(13){
+   margin-left: 1.2rem;
+}
+.page3 .btn1{
+    width: 1.2rem;
+    height: 0.4rem;
+    margin: 0.3rem auto;
+}
+.page3 .btn1 h2{
+    text-align: center;
+    color: white;
+    font-size: 0.3rem;
+}
+.page3 .btn2{
+    width: 0.8rem;
+    height: 0.53rem;
+    margin: 0 auto;
+    background: url("../images/xiaosanjiao.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 0.53rem;
+    color: white;
+}
+.page3 .btn3{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.14rem;
+    line-height: 0.25rem;
+}
+.page3 .btn4{
+    width: 3rem;
+    height: 2rem;
+}
+.page3 .btn4 img{
+    width: 100%;
+    height: 100%;
+}
+.page4 .mike{
+    width: 100%;
+    height: 0.7rem;
+}
+.page4 img{
+    width: 100%;
+    height : 100%;
+}
+.page4 .mike img{
+    width: 100%;
+    height: 100%;
+}
+.page4 .mike1{
+    width: 1.21rem;
+    height: 2.0rem;
+    float: left;
+    margin: 0.5rem 0.1rem 0 0.4rem;
+}
+.page4 .mike2{
+    width: 1.21rem;
+    height: 2.0rem;
+    float: left;
+    margin: 0.5rem 0.1rem 0 0.4rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.page4 .mike2 a{
+    color: #1dc21d;
+
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+
+.page5 .con{
+    width: 2.7rem;
+    height: 2.7rem;
+    background: url("../images/dayuan.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0.3rem auto;
+}
+.page5 .con img{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0.4rem;
+    margin-left: -0.89rem;
+}
+.page5 h2{
+    text-align: center;
+    color: white;
+    font-size: 0.25rem;
+}
+.page5 p:nth-child(3){
+    width: 60%;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    padding-left: 0.4rem;
+    background: url("../images/dianhua.png") no-repeat;
+    background-size: 0.35rem 0.35rem;
+    margin: 0.4rem 0;
+}
+.page5 p:nth-child(4){
+    text-align: right;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    color: #00FF66;
+    margin: 0.4rem 0;
+}
